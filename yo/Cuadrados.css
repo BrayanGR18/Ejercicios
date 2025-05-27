@@ -1,0 +1,35 @@
+#Cuadrado1 {
+    width: 100px; 
+    height: 100px; 
+    background: #f3f3f3;
+    margin: 30px;
+    
+}
+
+#Cuadrado2 {
+    width: 100px; 
+    height: 100px; 
+    background: #3000b4;
+    margin: 30px;
+
+}
+
+#Cuadrado3 {
+    width: 100px; 
+    height: 100px; 
+    background: #06b400;
+    margin: 30px;
+
+}
+
+#Cuadrado4 {
+    width: 100px; 
+    height: 100px; 
+    background: #b40054;
+    margin: 30px;
+
+}
+
+#body{
+    background-color: #09090aea;
+}

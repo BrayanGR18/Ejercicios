@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCULTANDO ELEMENTOS</title>
+    <SCRIPT LANGUAJE="JAVASCRIPT">
+        function Desaparece(Elemento){
+          Elemento.style.visibility="hidden" 
+        }
+        function Aparece(){
+          Boton.style.visibility="visible" 
+          Caja.style.visibility="visible" 
+          Texto.style.visibility="visible" 
+        }
+      </SCRIPT>
+</head>
+<body>
+
+
+<INPUT TYPE=BUTTON ID="Boton" STYLE="position:relative" 
+VALUE="Botón que desaparece"
+onclick="alert('... y el botón sigue funcionando')"
+onmouseover="Desaparece(this)"><BR><BR>
+
+<INPUT TYPE=TEXT ID="Caja" STYLE="position:relative" 
+VALUE="Caja que desaparece"
+onclick="alert('... y la caja sigue funcionando')"
+onmouseover="Desaparece(this)"><BR>
+
+<P ID="Texto"STYLE="position:relative"
+onclick="alert('... y la caja sigue funcionando')"
+onmouseover="Desaparece(this)">
+Texto que desaparece </P><BR>
+
+<P onclick="Aparece()"> Pulsa aquí para que todo aparezca </P>
+
+
+</body>
+</html>

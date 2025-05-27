@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- dibujar un triangulo con astericos -->
+    <script>
+        let n = parseInt(prompt("Introduce la altura del triángulo (entero positivo):"));
+
+        for (let i = 0; i < n; i++) {
+            let linea = "";
+            for (let j = 0; j <= i; j++) {
+                linea += "*";
+            }
+            console.log(linea); // Muestra en consola
+            document.write(linea + "<br>"); // Muestra en la página
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #25a1e3;
+    padding: 0 20px 20px 20px;
+    border: 15px solid rgb(255, 255, 255);
+  }
+
+  html {
+    background-color: #000000;
+  }
+  
+  html {
+    font-size: 15px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+    font-family: "Open Sans", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+  }

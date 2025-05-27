@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA 2</title>
+</head>
+<body>
+    <form action="">
+
+        <input type="number" id="usd">
+        <input type="button" value="Convertir MXN " onclick="alert(ConvertirMXN(usd));">
+        <br>
+        <input type="number" id="mxn">
+        <input type="button" value="Convertir USD " onclick="alert(ConvertirUSD(mxn));">
+        
+    </form>
+    <script>
+
+        var ConvertirMXN = function(usd)
+        {
+            var usd = parseFloat(document.getElementById("usd").value);
+
+            var resultado1 = usd * 19.87;
+            return resultado1;
+        }
+        
+        var ConvertirUSD = function(mxn)
+        {
+            var mxn = parseFloat(document.getElementById("mxn").value);
+
+            var resultado2 = mxn * 0.050;
+            return resultado2;
+        }
+
+    </script>
+</body>
+</html>
